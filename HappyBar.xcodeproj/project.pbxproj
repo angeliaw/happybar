@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041B4DC2174128E100B50444 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B4DC1174128E100B50444 /* UIKit.framework */; };
+		041B4DC4174128E100B50444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B4DC3174128E100B50444 /* Foundation.framework */; };
+		041B4DC6174128E100B50444 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B4DC5174128E100B50444 /* CoreGraphics.framework */; };
+		041B4DCE174128E100B50444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B4DCD174128E100B50444 /* main.m */; };
+		041B4E071741295200B50444 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B4DFB1741295200B50444 /* AboutViewController.m */; };
+		041B4E081741295200B50444 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041B4DFC1741295200B50444 /* AboutViewController.xib */; };
+		041B4E091741295200B50444 /* MoreGamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B4DFE1741295200B50444 /* MoreGamesViewController.m */; };
+		041B4E0A1741295200B50444 /* MoreGamesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041B4DFF1741295200B50444 /* MoreGamesViewController.xib */; };
+		041B4E0B1741295200B50444 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B4E011741295200B50444 /* Question.m */; };
+		041B4E0C1741295200B50444 /* QuestionManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B4E031741295200B50444 /* QuestionManage.m */; };
+		041B4E0D1741295200B50444 /* TellTruthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B4E051741295200B50444 /* TellTruthViewController.m */; };
+		041B4E0E1741295200B50444 /* TellTruthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E061741295200B50444 /* TellTruthViewController.xib */; };
+		041B4E201741295D00B50444 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E0F1741295D00B50444 /* bg.png */; };
+		041B4E211741295D00B50444 /* choose1.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E101741295D00B50444 /* choose1.png */; };
+		041B4E221741295D00B50444 /* choose2.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E111741295D00B50444 /* choose2.png */; };
+		041B4E231741295D00B50444 /* goback.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E121741295D00B50444 /* goback.png */; };
+		041B4E241741295D00B50444 /* gradeH.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E131741295D00B50444 /* gradeH.png */; };
+		041B4E251741295D00B50444 /* gradeM.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E141741295D00B50444 /* gradeM.png */; };
+		041B4E261741295D00B50444 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E151741295D00B50444 /* home.png */; };
+		041B4E271741295D00B50444 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E161741295D00B50444 /* icon.png */; };
+		041B4E281741295D00B50444 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E171741295D00B50444 /* icon@2x.png */; };
+		041B4E291741295D00B50444 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E181741295D00B50444 /* info.png */; };
+		041B4E2A1741295D00B50444 /* inventure.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E191741295D00B50444 /* inventure.png */; };
+		041B4E2B1741295D00B50444 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E1A1741295D00B50444 /* next.png */; };
+		041B4E2C1741295D00B50444 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E1B1741295D00B50444 /* settings.png */; };
+		041B4E2D1741295D00B50444 /* shake_found.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E1C1741295D00B50444 /* shake_found.wav */; };
+		041B4E2E1741295D00B50444 /* shake.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E1D1741295D00B50444 /* shake.wav */; };
+		041B4E2F1741295D00B50444 /* trueword.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E1E1741295D00B50444 /* trueword.png */; };
+		041B4E301741295D00B50444 /* waiting.png in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E1F1741295D00B50444 /* waiting.png */; };
+		041B4E32174129CF00B50444 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B4E31174129CF00B50444 /* AudioToolbox.framework */; };
+		041B4E34174129D700B50444 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B4E33174129D700B50444 /* libsqlite3.dylib */; };
+		041B4E36174129E100B50444 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B4E35174129E100B50444 /* CoreImage.framework */; };
+		041B4E3B17412A0600B50444 /* 大冒险刺激.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E3717412A0600B50444 /* 大冒险刺激.plist */; };
+		041B4E3C17412A0600B50444 /* 大冒险温馨.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E3817412A0600B50444 /* 大冒险温馨.plist */; };
+		041B4E3D17412A0600B50444 /* 真心话刺激.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E3917412A0600B50444 /* 真心话刺激.plist */; };
+		041B4E3E17412A0600B50444 /* 真心话温馨.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E3A17412A0600B50444 /* 真心话温馨.plist */; };
+		041B4E4D17412B6D00B50444 /* AURosetteItem.h in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E4817412B6D00B50444 /* AURosetteItem.h */; };
+		041B4E4E17412B6D00B50444 /* AURosetteItem.m in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E4917412B6D00B50444 /* AURosetteItem.m */; };
+		041B4E4F17412B6D00B50444 /* AURosetteView.h in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E4A17412B6D00B50444 /* AURosetteView.h */; };
+		041B4E5017412B6D00B50444 /* AURosetteView.m in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E4B17412B6D00B50444 /* AURosetteView.m */; };
+		041B4E5217412BE100B50444 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B4E5117412BE100B50444 /* QuartzCore.framework */; };
+		041B4E5417412C0600B50444 /* libAURosetteViewLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 041B4E5317412C0600B50444 /* libAURosetteViewLib.a */; };
+		041B4E7117412E7500B50444 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B4E6D17412E7500B50444 /* AppDelegate.m */; };
+		041B4E7317412E7500B50444 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041B4E7017412E7500B50444 /* ViewController.m */; };
+		041B4E7C17412F5C00B50444 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E7817412F5C00B50444 /* InfoPlist.strings */; };
+		041B4E7D17412F5C00B50444 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041B4E7A17412F5C00B50444 /* MainStoryboard.storyboard */; };
+		04A1297D17413EDC00B50FE3 /* rosetta_leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 04A1297C17413EDC00B50FE3 /* rosetta_leaf.png */; };
+		04EB49F71743D02A00903597 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB49F61743D02A00903597 /* Default-568h@2x.png */; };
+		04EB49F91743D4E500903597 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB49F81743D4E500903597 /* Default.png */; };
+		04EB49FB1743D4EE00903597 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB49FA1743D4EE00903597 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A1297817413D3B00B50FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041B4E3F17412B0D00B50444 /* AURosetteView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 202955C215949B8500F1A26B;
+			remoteInfo = AURosetteView;
+		};
+		04A1297A17413D3B00B50FE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041B4E3F17412B0D00B50444 /* AURosetteView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 202956531594AB1400F1A26B;
+			remoteInfo = AURosetteViewLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041B4DBE174128E100B50444 /* 酒吧乐乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "酒吧乐乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041B4DC1174128E100B50444 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		041B4DC3174128E100B50444 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		041B4DC5174128E100B50444 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		041B4DCD174128E100B50444 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041B4DCF174128E100B50444 /* HappyBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappyBar-Prefix.pch"; sourceTree = "<group>"; };
+		041B4DFA1741295200B50444 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = Classes/AboutViewController.h; sourceTree = "<group>"; };
+		041B4DFB1741295200B50444 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = Classes/AboutViewController.m; sourceTree = "<group>"; };
+		041B4DFC1741295200B50444 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Classes/AboutViewController.xib; sourceTree = "<group>"; };
+		041B4DFD1741295200B50444 /* MoreGamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreGamesViewController.h; path = Classes/MoreGamesViewController.h; sourceTree = "<group>"; };
+		041B4DFE1741295200B50444 /* MoreGamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreGamesViewController.m; path = Classes/MoreGamesViewController.m; sourceTree = "<group>"; };
+		041B4DFF1741295200B50444 /* MoreGamesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MoreGamesViewController.xib; path = Classes/MoreGamesViewController.xib; sourceTree = "<group>"; };
+		041B4E001741295200B50444 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = Classes/Question.h; sourceTree = "<group>"; };
+		041B4E011741295200B50444 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = Classes/Question.m; sourceTree = "<group>"; };
+		041B4E021741295200B50444 /* QuestionManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionManage.h; path = Classes/QuestionManage.h; sourceTree = "<group>"; };
+		041B4E031741295200B50444 /* QuestionManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionManage.m; path = Classes/QuestionManage.m; sourceTree = "<group>"; };
+		041B4E041741295200B50444 /* TellTruthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TellTruthViewController.h; path = Classes/TellTruthViewController.h; sourceTree = "<group>"; };
+		041B4E051741295200B50444 /* TellTruthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TellTruthViewController.m; path = Classes/TellTruthViewController.m; sourceTree = "<group>"; };
+		041B4E061741295200B50444 /* TellTruthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TellTruthViewController.xib; path = Classes/TellTruthViewController.xib; sourceTree = "<group>"; };
+		041B4E0F1741295D00B50444 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Images/bg.png; sourceTree = "<group>"; };
+		041B4E101741295D00B50444 /* choose1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choose1.png; path = Images/choose1.png; sourceTree = "<group>"; };
+		041B4E111741295D00B50444 /* choose2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choose2.png; path = Images/choose2.png; sourceTree = "<group>"; };
+		041B4E121741295D00B50444 /* goback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goback.png; path = Images/goback.png; sourceTree = "<group>"; };
+		041B4E131741295D00B50444 /* gradeH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gradeH.png; path = Images/gradeH.png; sourceTree = "<group>"; };
+		041B4E141741295D00B50444 /* gradeM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gradeM.png; path = Images/gradeM.png; sourceTree = "<group>"; };
+		041B4E151741295D00B50444 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Images/home.png; sourceTree = "<group>"; };
+		041B4E161741295D00B50444 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
+		041B4E171741295D00B50444 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Images/icon@2x.png"; sourceTree = "<group>"; };
+		041B4E181741295D00B50444 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = Images/info.png; sourceTree = "<group>"; };
+		041B4E191741295D00B50444 /* inventure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inventure.png; path = Images/inventure.png; sourceTree = "<group>"; };
+		041B4E1A1741295D00B50444 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = Images/next.png; sourceTree = "<group>"; };
+		041B4E1B1741295D00B50444 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = Images/settings.png; sourceTree = "<group>"; };
+		041B4E1C1741295D00B50444 /* shake_found.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shake_found.wav; path = Images/shake_found.wav; sourceTree = "<group>"; };
+		041B4E1D1741295D00B50444 /* shake.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shake.wav; path = Images/shake.wav; sourceTree = "<group>"; };
+		041B4E1E1741295D00B50444 /* trueword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = trueword.png; path = Images/trueword.png; sourceTree = "<group>"; };
+		041B4E1F1741295D00B50444 /* waiting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waiting.png; path = Images/waiting.png; sourceTree = "<group>"; };
+		041B4E31174129CF00B50444 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		041B4E33174129D700B50444 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		041B4E35174129E100B50444 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		041B4E3717412A0600B50444 /* 大冒险刺激.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "大冒险刺激.plist"; path = "Questions/大冒险刺激.plist"; sourceTree = "<group>"; };
+		041B4E3817412A0600B50444 /* 大冒险温馨.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "大冒险温馨.plist"; path = "Questions/大冒险温馨.plist"; sourceTree = "<group>"; };
+		041B4E3917412A0600B50444 /* 真心话刺激.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "真心话刺激.plist"; path = "Questions/真心话刺激.plist"; sourceTree = "<group>"; };
+		041B4E3A17412A0600B50444 /* 真心话温馨.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "真心话温馨.plist"; path = "Questions/真心话温馨.plist"; sourceTree = "<group>"; };
+		041B4E3F17412B0D00B50444 /* AURosetteView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AURosetteView.xcodeproj; path = AURosetteView/AURosetteView.xcodeproj; sourceTree = "<group>"; };
+		041B4E4817412B6D00B50444 /* AURosetteItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AURosetteItem.h; path = RosetteView/AURosetteItem.h; sourceTree = "<group>"; };
+		041B4E4917412B6D00B50444 /* AURosetteItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AURosetteItem.m; path = RosetteView/AURosetteItem.m; sourceTree = "<group>"; };
+		041B4E4A17412B6D00B50444 /* AURosetteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AURosetteView.h; path = RosetteView/AURosetteView.h; sourceTree = "<group>"; };
+		041B4E4B17412B6D00B50444 /* AURosetteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AURosetteView.m; path = RosetteView/AURosetteView.m; sourceTree = "<group>"; };
+		041B4E5117412BE100B50444 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		041B4E5317412C0600B50444 /* libAURosetteViewLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAURosetteViewLib.a; path = "../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos/libAURosetteViewLib.a"; sourceTree = "<group>"; };
+		041B4E6C17412E7500B50444 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041B4E6D17412E7500B50444 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041B4E6E17412E7500B50444 /* HappyBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HappyBar-Info.plist"; sourceTree = "<group>"; };
+		041B4E6F17412E7500B50444 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		041B4E7017412E7500B50444 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041B4E7917412F5C00B50444 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041B4E7B17412F5C00B50444 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		041B4E7F17413D1300B50444 /* 酒吧乐乐.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "酒吧乐乐.entitlements"; sourceTree = "<group>"; };
+		04A1297C17413EDC00B50FE3 /* rosetta_leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rosetta_leaf.png; sourceTree = "<group>"; };
+		04EB49F61743D02A00903597 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		04EB49F81743D4E500903597 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04EB49FA1743D4EE00903597 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041B4DBB174128E100B50444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041B4E5417412C0600B50444 /* libAURosetteViewLib.a in Frameworks */,
+				041B4E5217412BE100B50444 /* QuartzCore.framework in Frameworks */,
+				041B4E36174129E100B50444 /* CoreImage.framework in Frameworks */,
+				041B4E34174129D700B50444 /* libsqlite3.dylib in Frameworks */,
+				041B4E32174129CF00B50444 /* AudioToolbox.framework in Frameworks */,
+				041B4DC2174128E100B50444 /* UIKit.framework in Frameworks */,
+				041B4DC4174128E100B50444 /* Foundation.framework in Frameworks */,
+				041B4DC6174128E100B50444 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041B4DB5174128E100B50444 = {
+			isa = PBXGroup;
+			children = (
+				041B4E3F17412B0D00B50444 /* AURosetteView.xcodeproj */,
+				041B4DC7174128E100B50444 /* HappyBar */,
+				041B4DC0174128E100B50444 /* Frameworks */,
+				041B4DBF174128E100B50444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041B4DBF174128E100B50444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041B4DBE174128E100B50444 /* 酒吧乐乐.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041B4DC0174128E100B50444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041B4E5117412BE100B50444 /* QuartzCore.framework */,
+				041B4E5317412C0600B50444 /* libAURosetteViewLib.a */,
+				041B4E35174129E100B50444 /* CoreImage.framework */,
+				041B4E33174129D700B50444 /* libsqlite3.dylib */,
+				041B4E31174129CF00B50444 /* AudioToolbox.framework */,
+				041B4DC1174128E100B50444 /* UIKit.framework */,
+				041B4DC3174128E100B50444 /* Foundation.framework */,
+				041B4DC5174128E100B50444 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041B4DC7174128E100B50444 /* HappyBar */ = {
+			isa = PBXGroup;
+			children = (
+				041B4E6C17412E7500B50444 /* AppDelegate.h */,
+				041B4E6D17412E7500B50444 /* AppDelegate.m */,
+				041B4E6F17412E7500B50444 /* ViewController.h */,
+				041B4E7017412E7500B50444 /* ViewController.m */,
+				041B4E4C17412B6D00B50444 /* RosetteView */,
+				041B4DE51741291200B50444 /* Classes */,
+				041B4DE41741290C00B50444 /* Images */,
+				041B4DC8174128E100B50444 /* Supporting Files */,
+			);
+			path = HappyBar;
+			sourceTree = "<group>";
+		};
+		041B4DC8174128E100B50444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041B4E7F17413D1300B50444 /* 酒吧乐乐.entitlements */,
+				041B4E7817412F5C00B50444 /* InfoPlist.strings */,
+				041B4E7A17412F5C00B50444 /* MainStoryboard.storyboard */,
+				041B4E6E17412E7500B50444 /* HappyBar-Info.plist */,
+				041B4E3717412A0600B50444 /* 大冒险刺激.plist */,
+				041B4E3817412A0600B50444 /* 大冒险温馨.plist */,
+				041B4E3917412A0600B50444 /* 真心话刺激.plist */,
+				041B4E3A17412A0600B50444 /* 真心话温馨.plist */,
+				041B4DCD174128E100B50444 /* main.m */,
+				041B4DCF174128E100B50444 /* HappyBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041B4DE41741290C00B50444 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				04EB49FA1743D4EE00903597 /* Default@2x.png */,
+				04EB49F81743D4E500903597 /* Default.png */,
+				04EB49F61743D02A00903597 /* Default-568h@2x.png */,
+				041B4E0F1741295D00B50444 /* bg.png */,
+				041B4E101741295D00B50444 /* choose1.png */,
+				041B4E111741295D00B50444 /* choose2.png */,
+				041B4E121741295D00B50444 /* goback.png */,
+				041B4E131741295D00B50444 /* gradeH.png */,
+				041B4E141741295D00B50444 /* gradeM.png */,
+				041B4E151741295D00B50444 /* home.png */,
+				041B4E161741295D00B50444 /* icon.png */,
+				041B4E171741295D00B50444 /* icon@2x.png */,
+				041B4E181741295D00B50444 /* info.png */,
+				041B4E191741295D00B50444 /* inventure.png */,
+				041B4E1A1741295D00B50444 /* next.png */,
+				041B4E1B1741295D00B50444 /* settings.png */,
+				041B4E1C1741295D00B50444 /* shake_found.wav */,
+				041B4E1D1741295D00B50444 /* shake.wav */,
+				041B4E1E1741295D00B50444 /* trueword.png */,
+				041B4E1F1741295D00B50444 /* waiting.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		041B4DE51741291200B50444 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				041B4DFA1741295200B50444 /* AboutViewController.h */,
+				041B4DFB1741295200B50444 /* AboutViewController.m */,
+				041B4DFC1741295200B50444 /* AboutViewController.xib */,
+				041B4DFD1741295200B50444 /* MoreGamesViewController.h */,
+				041B4DFE1741295200B50444 /* MoreGamesViewController.m */,
+				041B4DFF1741295200B50444 /* MoreGamesViewController.xib */,
+				041B4E001741295200B50444 /* Question.h */,
+				041B4E011741295200B50444 /* Question.m */,
+				041B4E021741295200B50444 /* QuestionManage.h */,
+				041B4E031741295200B50444 /* QuestionManage.m */,
+				041B4E041741295200B50444 /* TellTruthViewController.h */,
+				041B4E051741295200B50444 /* TellTruthViewController.m */,
+				041B4E061741295200B50444 /* TellTruthViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		041B4E4C17412B6D00B50444 /* RosetteView */ = {
+			isa = PBXGroup;
+			children = (
+				04A1297C17413EDC00B50FE3 /* rosetta_leaf.png */,
+				041B4E4817412B6D00B50444 /* AURosetteItem.h */,
+				041B4E4917412B6D00B50444 /* AURosetteItem.m */,
+				041B4E4A17412B6D00B50444 /* AURosetteView.h */,
+				041B4E4B17412B6D00B50444 /* AURosetteView.m */,
+			);
+			name = RosetteView;
+			path = ../AURosetteView/AURosetteView;
+			sourceTree = "<group>";
+		};
+		04A1297417413D3B00B50FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A1297917413D3B00B50FE3 /* AURosetteView.app */,
+				04A1297B17413D3B00B50FE3 /* libAURosetteViewLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041B4DBD174128E100B50444 /* HappyBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041B4DE1174128E100B50444 /* Build configuration list for PBXNativeTarget "HappyBar" */;
+			buildPhases = (
+				041B4DBA174128E100B50444 /* Sources */,
+				041B4DBB174128E100B50444 /* Frameworks */,
+				041B4DBC174128E100B50444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyBar;
+			productName = HappyBar;
+			productReference = 041B4DBE174128E100B50444 /* 酒吧乐乐.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041B4DB6174128E100B50444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SimpleBest;
+			};
+			buildConfigurationList = 041B4DB9174128E100B50444 /* Build configuration list for PBXProject "HappyBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 041B4DB5174128E100B50444;
+			productRefGroup = 041B4DBF174128E100B50444 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04A1297417413D3B00B50FE3 /* Products */;
+					ProjectRef = 041B4E3F17412B0D00B50444 /* AURosetteView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				041B4DBD174128E100B50444 /* HappyBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04A1297917413D3B00B50FE3 /* AURosetteView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AURosetteView.app;
+			remoteRef = 04A1297817413D3B00B50FE3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04A1297B17413D3B00B50FE3 /* libAURosetteViewLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAURosetteViewLib.a;
+			remoteRef = 04A1297A17413D3B00B50FE3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041B4DBC174128E100B50444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041B4E081741295200B50444 /* AboutViewController.xib in Resources */,
+				041B4E0A1741295200B50444 /* MoreGamesViewController.xib in Resources */,
+				041B4E0E1741295200B50444 /* TellTruthViewController.xib in Resources */,
+				041B4E201741295D00B50444 /* bg.png in Resources */,
+				041B4E211741295D00B50444 /* choose1.png in Resources */,
+				041B4E221741295D00B50444 /* choose2.png in Resources */,
+				041B4E231741295D00B50444 /* goback.png in Resources */,
+				041B4E241741295D00B50444 /* gradeH.png in Resources */,
+				041B4E251741295D00B50444 /* gradeM.png in Resources */,
+				041B4E261741295D00B50444 /* home.png in Resources */,
+				041B4E271741295D00B50444 /* icon.png in Resources */,
+				041B4E281741295D00B50444 /* icon@2x.png in Resources */,
+				041B4E291741295D00B50444 /* info.png in Resources */,
+				041B4E2A1741295D00B50444 /* inventure.png in Resources */,
+				041B4E2B1741295D00B50444 /* next.png in Resources */,
+				041B4E2C1741295D00B50444 /* settings.png in Resources */,
+				041B4E2D1741295D00B50444 /* shake_found.wav in Resources */,
+				041B4E2E1741295D00B50444 /* shake.wav in Resources */,
+				041B4E2F1741295D00B50444 /* trueword.png in Resources */,
+				041B4E301741295D00B50444 /* waiting.png in Resources */,
+				041B4E3B17412A0600B50444 /* 大冒险刺激.plist in Resources */,
+				041B4E3C17412A0600B50444 /* 大冒险温馨.plist in Resources */,
+				041B4E3D17412A0600B50444 /* 真心话刺激.plist in Resources */,
+				041B4E3E17412A0600B50444 /* 真心话温馨.plist in Resources */,
+				041B4E4D17412B6D00B50444 /* AURosetteItem.h in Resources */,
+				041B4E4E17412B6D00B50444 /* AURosetteItem.m in Resources */,
+				041B4E4F17412B6D00B50444 /* AURosetteView.h in Resources */,
+				041B4E5017412B6D00B50444 /* AURosetteView.m in Resources */,
+				041B4E7C17412F5C00B50444 /* InfoPlist.strings in Resources */,
+				041B4E7D17412F5C00B50444 /* MainStoryboard.storyboard in Resources */,
+				04A1297D17413EDC00B50FE3 /* rosetta_leaf.png in Resources */,
+				04EB49F71743D02A00903597 /* Default-568h@2x.png in Resources */,
+				04EB49F91743D4E500903597 /* Default.png in Resources */,
+				04EB49FB1743D4EE00903597 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041B4DBA174128E100B50444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041B4DCE174128E100B50444 /* main.m in Sources */,
+				041B4E071741295200B50444 /* AboutViewController.m in Sources */,
+				041B4E091741295200B50444 /* MoreGamesViewController.m in Sources */,
+				041B4E0B1741295200B50444 /* Question.m in Sources */,
+				041B4E0C1741295200B50444 /* QuestionManage.m in Sources */,
+				041B4E0D1741295200B50444 /* TellTruthViewController.m in Sources */,
+				041B4E7117412E7500B50444 /* AppDelegate.m in Sources */,
+				041B4E7317412E7500B50444 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		041B4E7817412F5C00B50444 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041B4E7917412F5C00B50444 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		041B4E7A17412F5C00B50444 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041B4E7B17412F5C00B50444 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041B4DDF174128E100B50444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Angelia Wang (DG374DM5HZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Angelia Wang (DG374DM5HZ)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "酒吧乐乐";
+				PROVISIONING_PROFILE = "3DF1E37F-4C1C-4DA9-91B4-206A60B4F3F0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3DF1E37F-4C1C-4DA9-91B4-206A60B4F3F0";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		041B4DE0174128E100B50444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Angelia Wang (DG374DM5HZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Angelia Wang (DG374DM5HZ)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "酒吧乐乐";
+				PROVISIONING_PROFILE = "3DF1E37F-4C1C-4DA9-91B4-206A60B4F3F0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3DF1E37F-4C1C-4DA9-91B4-206A60B4F3F0";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041B4DE2174128E100B50444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "HappyBar/酒吧乐乐.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyBar/HappyBar-Prefix.pch";
+				INFOPLIST_FILE = "HappyBar/HappyBar-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "酒吧乐乐";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		041B4DE3174128E100B50444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "HappyBar/酒吧乐乐.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Angelia Wang (DG374DM5HZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Angelia Wang (DG374DM5HZ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyBar/HappyBar-Prefix.pch";
+				INFOPLIST_FILE = "HappyBar/HappyBar-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "酒吧乐乐";
+				PROVISIONING_PROFILE = "3DF1E37F-4C1C-4DA9-91B4-206A60B4F3F0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3DF1E37F-4C1C-4DA9-91B4-206A60B4F3F0";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041B4DB9174128E100B50444 /* Build configuration list for PBXProject "HappyBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041B4DDF174128E100B50444 /* Debug */,
+				041B4DE0174128E100B50444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041B4DE1174128E100B50444 /* Build configuration list for PBXNativeTarget "HappyBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041B4DE2174128E100B50444 /* Debug */,
+				041B4DE3174128E100B50444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041B4DB6174128E100B50444 /* Project object */;
+}
